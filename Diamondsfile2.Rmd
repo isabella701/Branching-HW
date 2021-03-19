@@ -1,0 +1,15 @@
+---
+title: "Diamondsfile2"
+author: "Isabella Natke"
+date: "3/19/2021"
+output: word_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+
+diamonds%>%
+  select(price, color, x)
+```
+
